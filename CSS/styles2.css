@@ -1,0 +1,95 @@
+
+@font-face{
+
+	font-family: exo;
+	src: url(../Fonts/exo/Exo-Black.otf);
+}
+
+
+
+
+body{
+
+	background-color: orange;
+	background-image: url("../images2/backimg.jpg");
+	/* background-size: cover; */
+	background-repeat: repeat-y;
+	background-size: 100%;
+	margin-top: 5%;
+	margin-bottom: 0%;
+	height: 1000px;
+}
+
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	color: white;
+	background-color: black;
+}
+
+.dropdown {
+	position: relative;
+
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+.dropdown-content{
+
+	display: none;
+	position: absolute;
+	background-color: black;
+	width: 90%;
+	font-family: exo;
+	
+}
+
+.dropdown-content a {
+
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	display: block;
+	font-family: exo;
+
+
+}
+.dropdown-content a: hover {
+
+	background-color: red;
+
+}
+
+li{
+	display: inline-block;
+	text-align: center;
+	width: 23%;
+	background-color: black;
+	margin-top:0;
+	padding-top:1%;
+	padding-bottom: 1%;
+	font-size:1em;
+	font-family: exo;
+}
+
+h1{
+
+background-color: white;
+text-align: center;
+font-size: 3em;
+margin:0;
+padding: 2%
+font-size:3em;
+font-family: exo;
+}
+
+li:hover{
+
+	cover:white;	
+}
+
+
